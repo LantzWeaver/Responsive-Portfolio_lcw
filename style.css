@@ -4,17 +4,23 @@
 	padding: 0px;
 }
 
+@media only screen and (max-width: 960px) {
+    body {
+       
+    }
+}
+
 .header{
 	background: white;
-	width: 100%;
-	margin: 0px;
-	padding: 15px;
-	border-style: solid;
-	border-width: thin;
+    width: 100%;
+    margin: 0px;
+    padding: 15px;
+    border-style: solid;
     border-top: none;
-    border-bottom-color: #dedada;
     border-left: none;
     border-right: none;
+    border-width: thin;
+    border-bottom-color: #dedada;
 }
 
 #name{
@@ -30,7 +36,7 @@
 }
 
 #tab1{
-	display: inline;
+    display: inline;
 	size: 12px;
 	color: gray;
 	font-family: sans-serif;
@@ -39,14 +45,14 @@
     border-bottom-color: none;
     border-left: none;
     border-right: none;
-}
+}  
 
 #tab2{
-	display: inline;
-	size: 12px;
-	color: gray;
-	font-family: sans-serif;
-	border-style: none;
+    display: inline;
+    size: 12px;
+    color: gray;
+    font-family: sans-serif;
+    border-style: none;
     border-top: none;
     border-bottom-color: none;
     border-left: none;
@@ -54,11 +60,11 @@
 }
 
 #tab3{
-	display: inline;
-	size: 12px;
-	color: gray;
-	font-family: sans-serif;
-	border-style: none;
+    display: inline;
+    size: 12px;
+    color: gray;
+    font-family: sans-serif;
+    border-style: none;
     border-top: none;
     border-bottom-color: none;
     border-left: none;
@@ -79,7 +85,6 @@ a:hover {
 	color: gray;
     text-decoration: none;
 }
-
 
 a:active {
 	color: gray;
@@ -108,22 +113,86 @@ a:active {
 	float: left;
     position: absolute;
     z-index: 2;
-    display: block;
     margin-left: 140px;
     margin-right: 0px;
     margin-top: 180px;
     margin-bottom: 0px;
 }
 
+.portfolio{
+    position: static;
+    background: white;
+    height: 600px;
+    margin-top: 40px;
+    margin-right: 500px;
+    margin-bottom: 0px;
+    margin-left: 115px;
+    padding-top: 150px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 225px;
+    border-style: solid;
+    border-color: #dedada;
+    border-width: thin;
+}
+
+#Quidditch{
+    z-index: 3;
+    margin-left: -170px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#placeholderla{
+    z-index: 3;
+    margin-left: 140px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#placeholder1{
+    z-index: 3;
+    margin-left: -160px;
+    margin-right: 0px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+#placeholder3{
+    z-index: 4;
+    margin-left: 140px;
+    margin-right: 0px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
 .head2{
-	color: #109e9e;
-	width: 200px;
-	height: 140px;
-	text-align: center;
-	margin-top: 35px;
-	background: white;
-	float: right;
-	margin-right: 200px;
+    color: #109e9e;
+    width: 200px;
+    height: 140px;
+    text-align: center;
+    margin-top: 35px;
+    background: white;
+    float: right;
+    margin-left: 600px;
+    margin-right: 200px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dedada;
+}
+
+.head2p{
+    color: #109e9e;
+    width: 200px;
+    height: 140px;
+    text-align: center;
+    background: white;
+    float: right;
+    margin-top: -760px;
+    margin-left: 600px;
+    margin-right: 200px;
     border-style: solid;
     border-width: thin;
     border-color: #dedada;
@@ -150,7 +219,24 @@ a:active {
     border-style: solid;
     border-color: #dedada;
     border-width: thin;
+}
 
+.form{
+    position: static;
+    color: gray;
+    background: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-right: 500px;
+    margin-bottom: 0px;
+    margin-left: 115px;
+    padding-top: 125px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border-style: solid;
+    border-color: #dedada;
+    border-width: thin;
 }
 
 .footer{
@@ -160,12 +246,13 @@ a:active {
     width: 100%;
     height: 22px;
     margin: 0px;
-    margin-top: 1s00px;
+    margin-top: 100px;
     margin-bottom: 0px;
     padding: 15px;
     font-family: sans-serif;
     font-size: 12px;
     text-align: center;
+    color: #e8e8e8;
     border-style: solid;
     border-width: thick;
     border-top-color: #109e9e;
